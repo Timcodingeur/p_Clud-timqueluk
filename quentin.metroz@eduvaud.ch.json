@@ -3,7 +3,7 @@
     "officialName": "Métroz",
     "classeName": "CID3A",
     "valid": true,
-    "firstName": "Quentin",
+    "firstName": "Quentine",
     "dateOfBirth": "2007-03-04",
     "formationId": "f9e2f533-dfae-4969-b37d-0e63f3701b88",
     "etablissementId": "52fc91cb-e696-43d2-a19b-a5324880260c",
@@ -11,10 +11,10 @@
     "email": "quentin.metroz@eduvaud.ch",
     "absences": [],
     "justificatifs": [],
-    "firstSemester": "0.00",
-    "secondSemester": "0",
-    "currentYear": "0.00",
-    "currentFormation": "2.28",
+    "firstSemester": "99.99",
+    "secondSemester": "99.99",
+    "currentYear": "99.99",
+    "currentFormation": "99.28",
     "courses": [
         {
             "coursId": "ef1fc2fb-4989-4378-b9d5-86ef3ef0ba4c",
