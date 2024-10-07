@@ -14,6 +14,13 @@ le but du projet est de mettre sur azure le site "mon agenda" qui permet au él�
 
 ## Maquette
 
+
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/absence.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/absence_profVue.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/dashboard.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/horaire.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/tableauDesEleve.png" alt="absence" height="500">
+
 ## Utilisation de l'AI
 
 on a pas utilisé l'ai pour se projet
