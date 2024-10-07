@@ -10,10 +10,9 @@
 
 ## Présentation du projet
 
-le but du projet est de mettre sur azure le site "mon agenda" qui permet au élève de voir leurs retard, leur absence et leurs horaire. 
+Le but du projet est de mettre sur azure le site "mon agenda" qui permet au élève de voir leurs retard, leur absence et leurs horaire.
 
 ## Maquette
-
 
 <img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/absence.png" alt="absence" height="500">
 <img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/absence_profVue.png" alt="absence" height="500">
@@ -23,4 +22,4 @@ le but du projet est de mettre sur azure le site "mon agenda" qui permet au él�
 
 ## Utilisation de l'AI
 
-on a pas utilisé l'ai pour se projet
+On a pas utilisé l'ai pour ce projet.
