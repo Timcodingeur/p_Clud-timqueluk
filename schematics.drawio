@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2024-08-06T22:42:06.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" etag="OoHGeH4W3Sabwn6tKOh0" version="24.5.1" type="device">
+  <diagram name="Page-1" id="BJlARRGx6fUQP1xwxotH">
+    <mxGraphModel dx="2241" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jzTuIRegexL5YmeWVKnU-27" value="" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="83" width="520" height="607" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="jzTuIRegexL5YmeWVKnU-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="Addon &quot;Lagapep to OneDrive Export&quot;. Démarrage de l&#39;export" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="130" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-30" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="240" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-20" target="jzTuIRegexL5YmeWVKnU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-20" value="Export des absences et des cours des élèves de l&#39;enseignant (détection des classes)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="132" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-23" target="jzTuIRegexL5YmeWVKnU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-23" value="Un fichier JSON par élève (eleve.nom@eduvaud.ch.json) contenant ses absences et cours&#xa;&#xa;+ lien de partage (lecture seule) pour l&#39;élève&#xa;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="290" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-25" target="jzTuIRegexL5YmeWVKnU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-25" value="Compile tous les liens de partage dans un de résumé &quot;lagapep_my_students_links.json&quot;&#xa;&#xa;+ lien de partage pour l&#39;enseignant&#xa;" style="whiteSpace=wrap;strokeWidth=3;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="410" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-28" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="83" width="510" height="577" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-29" target="jzTuIRegexL5YmeWVKnU-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-29" value="Connexion obligatoire avec login O365 (limitée au domaine eduvaud.ch)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="184" width="210" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-31" value="Sur le OneDrive de l&#39;enseignant" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-610" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-32" value="Piloté par l&#39;addon : Lagapep-export" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-840" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-33" target="jzTuIRegexL5YmeWVKnU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-33" value="L&#39;addon invite l&#39;enseignant à copier ce dernier lien (celui du fichier de résumé) et de charger ce fichier sur https://monagenda.azurewebsites.com" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="540" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-36" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-36" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="155" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-38" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-495" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-40" value="https://monagenda.azurewebsites.com" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-270" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-41" target="jzTuIRegexL5YmeWVKnU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="132" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-44" target="jzTuIRegexL5YmeWVKnU-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-49" value="Oui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzTuIRegexL5YmeWVKnU-48">
+          <mxGeometry x="0.2137" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzTuIRegexL5YmeWVKnU-44" target="jzTuIRegexL5YmeWVKnU-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-52" value="Non" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzTuIRegexL5YmeWVKnU-51">
+          <mxGeometry x="0.4111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-44" value="Est un enseignant ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-127.5" y="266.5" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-47" value="Affichage du site en mode admin, l&#39;enseignant peut renseigner le lien vers le fichier de résumé.&#xa;&#xa;Grâce à ce lien, la base de données est mise à jour pour tous les élèves de l&#39;enseignant.&#xa;&#xa;Le chargement du lien n&#39;est à refaire que si l&#39;effectif de la classe change)&#xa;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="386" width="150" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="jzTuIRegexL5YmeWVKnU-50" value="Affichage de son horaire annualisé, hebdomadaire et absences (UI/UX en cours)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="390" width="172.5" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

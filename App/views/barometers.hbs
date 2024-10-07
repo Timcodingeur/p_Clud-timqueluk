@@ -1,0 +1,99 @@
+{{#if isAuthenticated }}
+<div id="menuDiv">
+    <div id="menu">
+        <div class="column">
+            <span class="menuTitle">LAGA-GENDA</span>
+        </div>
+        <div class="column">
+            <a href="/auth/signout">
+                <button class="btn sign">Sign out</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="containerHeader">
+        <h1>{{title}}</h1>
+    </div>
+
+    <div class="students-container">
+        {{#each students}}
+            <div class="student-card">
+                <div class="student-info">
+                    <span class="student-name">{{name}} <a href="/impersonate/{{email}}#absencesZoneDiv" target="_blank">(Détails...)</a></span>
+                </div>
+
+                
+                <div class="overall-data">
+                    <span class="metricTitle">Situation globale</span>
+                    <img src="images/{{trendPictures.[0]}}" alt="Trend">
+                    <span class="metrics">{{absencesRates.[0]}}% ({{events.[0]}})</span>
+                </div>
+            
+
+                <div class="monthly-data">
+                    <span class="metricTitle">Historique</span>
+                    <div class="trend-row">
+                        <div class="trend-content">
+                            <span class="month-label">{{observedMonths.[0]}}</span>
+                            {{#if absencesRates.[1]}}
+                                <img src="images/{{trendPictures.[1]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[1]}}% ({{events.[1]}})</span>
+                            {{/if}}
+                        </div>
+                        <div class="trend-content">
+                            {{#if absencesRates.[2]}}
+                                <span class="month-label">{{observedMonths.[1]}}</span>
+                                <img src="images/{{trendPictures.[2]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[2]}}% ({{events.[2]}})</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="trend-row">
+                        <div class="trend-content">
+                            {{#if absencesRates.[3]}}
+                                <span class="month-label">{{observedMonths.[2]}}</span>
+                                <img src="images/{{trendPictures.[3]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[3]}}% ({{events.[3]}})</span>
+                            {{/if}}
+                        </div>
+                        <div class="trend-content">
+                            {{#if absencesRates.[4]}}
+                                <span class="month-label">{{observedMonths.[3]}}</span>
+                                <img src="images/{{trendPictures.[4]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[4]}}% ({{events.[4]}})</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="trend-row">
+                        <div class="trend-content">
+                            {{#if absencesRates.[5]}}
+                                <span class="month-label">{{observedMonths.[4]}}</span>
+                                <img src="images/{{trendPictures.[5]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[5]}}% ({{events.[5]}})</span>
+                            {{/if}}
+                        </div>
+                        <div class="trend-content">
+                            {{#if absencesRates.[6]}}
+                                <span class="month-label">{{observedMonths.[5]}}</span> 
+                                <img src="images/{{trendPictures.[6]}}" alt="Trend">
+                                <span class="metrics">{{absencesRates.[6]}}% ({{events.[6]}})</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+
+                    
+                <div class="displinary-data">
+                    <span class="metricTitle">Procédure disciplinaire</span>
+                    <img src="images/{{barometerPicture}}" alt="Barometer">
+                    <span class="metrics">Nombre de situations : {{events.[0]}}</span>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+{{else}}
+<p>Welcome to {{title}}</p>
+<a href="/auth/signin">Sign in</a>
+{{/if}}
