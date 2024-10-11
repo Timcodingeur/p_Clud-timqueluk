@@ -1,0 +1,29 @@
+{{#if isAuthenticated }}
+<div id="menuDiv">
+    <div id="menu">
+        <div class="column">
+            <span class="menuTitle">LAGA-GENDA</span>
+        </div>
+        <div class="column">
+            <a href="/auth/signout">
+                <button class="btn sign">Sign out</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="containerHeader">
+        <h1>{{title}}</h1>
+        <p>Bonjour {{username}} !</p>
+    </div>
+    <div id="wrapper">
+        <ul>
+            <li><a href="/barometers">(Prototype) Afficher les baromètres de mes élèves</a></li>
+            <li><a href="/impersonate">Impersonation (voir le site comme mes étudiants)</a></li>
+        </ul>
+    </div>
+</div>
+{{else}}
+<p>Welcome to {{title}}</p>
+<a href="/auth/signin">Sign in</a>
+{{/if}}

@@ -1,0 +1,46 @@
+{{#if isAuthenticated }}
+<div id="menuDiv">
+    <div id="menu">
+        <div class="column">
+            <span class="menuTitle">LAGA-GENDA</span>
+            <ul>
+                <li><a href="#scheduleYearZoneDiv">Horaire annuel</a></li>
+                <!--li><a>Horaire hebdomadaire</a></li-->
+                <li><a href="#absencesZoneDiv">Absences</a></li>
+                <!--li><a>Baromètre</a></li-->
+            </ul>
+        </div>
+        <div class="column">
+            <a href="/auth/signout">
+                <button class="btn sign">Sign out</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="containerHeader">
+        <h1>{{title}}</h1>
+        <p>Bonjour {{username}} !</p>
+    </div>
+    <div id="schedule-data" data-json="{{schedule}}"></div>
+    <div id="absencesZoneDiv" class="box">
+        <div class="zoneDivTitle">
+            <h2>Absences</h2>
+        </div>
+        <div id="absencesDiv"></div>
+    </div>
+    <div id="scheduleYearZoneDiv" class="box">
+        <div class="zoneDivTitle">
+            <h2>Horaire annuel</h2>
+        </div>
+        <div id="scheduleDiv"></div>
+    </div>
+    
+    <br>
+    <script src="/javascripts/createSchedule.js"></script>
+    <script src="/javascripts/createAbsencesChart.js"></script>
+</div>
+{{else}}
+    <p>Welcome to {{title}}</p>
+    <a href="/auth/signin">Sign in</a>
+{{/if}}
