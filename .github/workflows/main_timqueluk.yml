@@ -13,14 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Cache node modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Set up Node.js version
         uses: actions/setup-node@v4
         with:
@@ -66,6 +58,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26F223B9403B4361A0EABE32224212BE }}
           package: './release.zip'
-          enable-oryx-build: false
-          deployment-method: 'RunFromPackage'
 
