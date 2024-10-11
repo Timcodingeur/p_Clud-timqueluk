@@ -15,10 +15,10 @@ Le but du projet est de mettre sur azure le site "mon agenda" qui permet au √©l√
 ## Maquette
 
 <img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/azure/maquette/absence.png" alt="absence" height="500">
-<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/absence_profVue.png" alt="absence" height="500">
-<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/dashboard.png" alt="absence" height="500">
-<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/horaire.png" alt="absence" height="500">
-<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/main/maquette/tableauDesEleve.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/azure/maquette/absence_profVue.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/azure/maquette/dashboard.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/azure/maquette/horaire.png" alt="absence" height="500">
+<img src="https://github.com/Timcodingeur/p_Clud-timqueluk/blob/azure/maquette/tableauDesEleve.png" alt="absence" height="500">
 
 ## Utilisation de l'AI
 
