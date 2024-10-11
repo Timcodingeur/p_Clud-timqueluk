@@ -57,4 +57,4 @@ jobs:
           app-name: 'timqueluk'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26F223B9403B4361A0EABE32224212BE }}
-          package: './realease.zip'  
+          package: './release.zip'  
